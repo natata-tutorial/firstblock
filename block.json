@@ -1,0 +1,10 @@
+{
+    "apiVersion": 2,
+    "name": "gutenberg-course/first-block",
+    "title": "First Block",
+    "description": "This is a first block",
+    "category": "text",
+    "icon": "admin-tools",
+    "textdomain": "firstblock",
+    "editorScript": "file:./index.js"
+}
