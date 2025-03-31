@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAAA;EACI;AACJ;;AAEA;EACI;AACJ,C","sources":["webpack://firstblock/./src/style.scss"],"sourcesContent":[":root {\r\n    --new-color: red;\r\n}\r\n\r\n.wp-block-gutenberg-course-first-block{\r\n    color: var(--new-color, red);\r\n}"],"names":[],"sourceRoot":""}

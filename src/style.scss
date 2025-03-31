@@ -1,0 +1,7 @@
+:root {
+    --new-color: red;
+}
+
+.wp-block-gutenberg-course-first-block{
+    color: var(--new-color, red);
+}

@@ -1,10 +1,9 @@
-import {registerBlockType} from "@wordpress/blocks"
+import { registerBlockType } from '@wordpress/blocks';
+import Edit from "./edit";
+import Save from "./save";
+import './style.scss';
 
-registerBlockType('gutenberg-course/first-block', {
-edit: function() {
-        return <p className="class">Edit JSX</p>;
-    },
-    save: function() {
-        return <p className="class">Save JSX</p>;
-    },
-})
+registerBlockType( 'gutenberg-course/first-block', {
+	edit: Edit,
+	save: Save,
+} );

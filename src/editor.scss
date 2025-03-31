@@ -1,0 +1,8 @@
+:root {
+    --new-color: green;
+}
+
+.wp-block-gutenberg-course-first-block{
+    color: var(--new-color, red);
+    border: 2px solid green;
+}
