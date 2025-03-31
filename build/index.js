@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.blocks,s=window.ReactJSXRuntime;(0,e.registerBlockType)("gutenberg-course/first-block",{edit:function(){return(0,s.jsx)("p",{className:"class",children:"Edit JSX"})},save:function(){return(0,s.jsx)("p",{className:"class",children:"Save JSX"})}})})();
